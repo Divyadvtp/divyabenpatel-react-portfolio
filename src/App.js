@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/divyabenpatel-portfolio/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
