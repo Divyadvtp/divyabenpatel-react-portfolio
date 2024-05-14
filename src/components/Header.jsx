@@ -1,9 +1,15 @@
 import React from 'react'
+import Navbar from 'react-bootstrap/Navbar';
 
-function Header() {
+export const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      {/* <Navbar.Brand href="#Home">
+        <img className='logoImg' src="img/logo.png" alt="D logo" />
+      </Navbar.Brand> */}
+      
+    </header>
   )
 }
 
-export default Header
+

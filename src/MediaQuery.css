@@ -1,0 +1,146 @@
+/* For screens up to 768px */
+@media (max-width: 768px) {
+  .logoImg {
+    width: 4.5em !important;
+    margin: 13px 0px 0px 13px !important;
+  }
+  .myDescription {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+
+  .home-flex-container .inner-content {
+    flex-direction: column;
+  }
+
+  .home-flex-container {
+    width: auto;
+  }
+
+  .heroText h1 {
+    font-size: 3.5rem !important;
+  }
+  .heroText h3 {
+    font-size: 1.1rem !important;
+  }
+  .heroImg img {
+    width: 19.6rem !important;
+  }
+  /* .home-skill {
+    font-size: 1.6rem !important;
+  } */
+  
+
+  .row {
+    width: 90% !important;
+    padding: 0rem 1rem 1rem 1rem !important;
+  }
+
+  .col {
+    width: 100% !important;
+  }
+
+  .grid-item {
+    flex: 1 0 45% !important;
+  }
+
+  
+  .experience-flex-container .flex-item {
+    padding: 1rem !important;
+  }
+
+  .experience-flex-container .inner-content {
+    margin: -1rem 1rem !important;
+  }
+
+  .experience-flex-container .inner-flex-item {
+    padding: 0.7rem !important;
+  }
+
+  .project-flex-container .grid-container {
+    width: 90% !important;
+  }
+  .experience-heading-flex {
+    font-size: 10px !important;
+  }
+
+   .list-disc {
+    font-size: 12px;
+   }
+}
+
+/* For screens between 768px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .logoImg {
+    width: 4.5em;
+    margin: 13px 0px 0px 13px;
+  }
+
+  .heroText h1 {
+    font-size: 3.5rem !important;
+  }
+  .heroText h3 {
+    font-size: 0.9rem !important;
+  }
+  .myDescription {
+    width: 100% !important;
+    font-size: 0.9rem !important;
+  }
+  .heroImg img {
+    width: 12.6rem !important;
+  }
+  .home-skill {
+    font-size: 1.6rem !important;
+  }
+
+  .home-flex-container .inner-content {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .home-flex-container {
+    width: 100% !important;
+  }
+
+  
+
+  .row {
+    width: 90% !important;
+    padding: 0rem 1rem 1rem 1rem !important;
+  }
+
+  .col {
+    width: 45%;
+  }
+
+  .grid-item {
+    flex: 1 0 30% !important;
+  }
+  
+
+  .experience-heading-flex {
+    font-size: 12px !important;
+  }
+
+  .experience-flex-container .flex-item {
+    padding: 1rem 0rem !important;
+  }
+
+  .experience-flex-container .inner-content {
+    margin: -1rem 4rem !important;
+  }
+
+  .experience-flex-container .inner-flex-item {
+    padding: 1rem !important;
+  }
+
+  .project-flex-container .grid-container {
+    width: 90% !important;
+  }
+}
+
+/* For screens larger than 1024px */
+@media only screen and (min-width: 1024px) and (max-width: 1280px)  {
+  
+}

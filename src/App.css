@@ -1,38 +1,264 @@
-/* .App {
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+}
+
+body {
+  margin: 0;
+  font-family: "Niramit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  color: #000060;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-title {
   text-align: center;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.section-title h2 {
+  margin: 0;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 } */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/**************************************
+Home Page Css
+***************************************/
+
+.home-flex-container {
+  /* display: flex; */
+  /* position: relative; */
+  width: 100%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-flex-container .inner-content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 80px auto 0 auto;
+  width: 80%;
+}
+
+.heroImg {
+  margin: 0 0;
+}
+
+.heroImg img {
+  width: 22.3vw;
+}
+
+
+.heroText h1 {
+  font-size: 5.5vw;
+  margin: 0;
+  letter-spacing: 0.3rem;
+  line-height: 1;
+  text-transform: uppercase;
+  padding: 29px 0 0;
+}
+.heroText h3 {
+  font-size: 1.6vw;
+}
+.home-skills {
+  font-weight: 500;
+  /* font-size: 1.6vw; */
+}
+
+.myDescription {
+  width: 75%;
+  font-size: 1.40625vw;
+  /* font-size was : 18px */
+}
+
+.downloadCVBtn {
+  position: relative;
+}
+
+.emptyCircleBtn {
+  width: 4.5%;
+}
+
+.downloadCvArrow {
+  width: 5.1%;
+  position: absolute;
+  left: -3px;
+  top: 1.2px;
+}
+
+.textDownloadCv {
+  position: absolute;
+  left: 43px;
+  top: -14px;
+  font-size: 18px;
+}
+
+
+
+/* skills sections */
+
+.skills-flex-container {
+  min-height: 70vh;
+  width: 100%;
+  background-color: #5AFFA4;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.skills-flex-container .inner-content {
+  display: flex;
+  /* position: relative; */
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  width: 68%;
+  padding: 0rem 2rem 2rem 2rem;
+  margin: 0 auto;
 }
+
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* flex-basis: 34%; */
+  /* flex: 1 1; */
+  background-color: #eeede9;
+  width: 45.9%;
+  min-height: 25px;
+  margin: 0rem auto 0.9rem auto;
+  padding: 0.7rem;
+  cursor: default;
+  border-radius: 0.25rem;
+}
+
+.col h4 {
+  margin: 0;
+
+}
+
+.col p {
+  margin: 0;
+}
+
+.wh-svg-correct {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-top: 0.1rem;
+}
+
+/* Experience Section CSS */
+.experience-flex-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  justify-content: center;
+}
+
+.experience-flex-container .inner-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+}
+
+.experience-flex-container .flex-item {
+  width: 100%;
+  padding: 1rem 9rem 1rem 9rem;
+}
+
+.experience-flex-container .inner-flex-item {
+  background-color: #eeede92b;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.experience-flex-container .inner-flex-item:hover {
+  cursor: pointer;
+  background-color: #eeede9ab;
+
+}
+
+.experience-heading-flex {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+/* Projects CSS */
+
+.project-flex-container {
+  min-height: 100vh;
+  width: 100%;
+  /* background-color: #5AFFA4; */
+  justify-content: center;
+}
+
+/* .project-flex-container .inner-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+} */
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  flex: 1 0 35%;
+  /* background-color: #ddd; */
+  margin: 5px;
+  text-align: center;
+  padding: 20px;
+}
+
+.item-project-1 img {
+  width: 100%;
+  border: 3px solid #000060;
+  cursor: pointer;
+  
+}
+
+.item-project-2 img {
+  width: 100%;
+  border: 3px solid #000060;
+  cursor: pointer;
+}
+
+/* .viewMoreBtn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.item-project-1 img:hover .viewMoreBtn {
+  visibility: visible;
+  opacity: 1;
+} */
