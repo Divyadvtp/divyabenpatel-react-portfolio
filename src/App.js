@@ -20,7 +20,7 @@ function App() {
         <NavBar pageRefs={pageRefs} />
        
         <Routes>
-          <Route path="/divyabenpatel-portfolio/" element={<Home  pageRefs={pageRefs} />} />
+          <Route path="/divyabenpatel-react-portfolio/" element={<Home  pageRefs={pageRefs} />} />
           
         </Routes>
         <Footer pageRefs={pageRefs} />
