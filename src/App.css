@@ -1,6 +1,6 @@
-::-webkit-scrollbar {
-  display: none;
-}
+/* ::-webkit-scrollbar {
+  display: block;
+} */
 
 html {
   touch-action: manipulation;
@@ -12,14 +12,14 @@ body {
   font-family: "Niramit", sans-serif;
   font-weight: 400;
   font-style: normal;
-  width: 100%;
+  /* width: 100%; */
   color: #000060;
 }
 
-.container {
+/* .container {
   width: 100%;
   margin: 0 auto;
-}
+} */
 
 .section-title {
   text-align: center;
@@ -43,7 +43,7 @@ Home Page Css
 .home-flex-container {
   /* display: flex; */
   /* position: relative; */
-  width: 100%;
+  /* width: 100%; */
 
 }
 
@@ -112,7 +112,7 @@ Home Page Css
 
 .skills-flex-container {
   min-height: 70vh;
-  width: 100%;
+  /* width: 100%; */
   background-color: #5AFFA4;
   justify-content: center;
   
@@ -167,7 +167,7 @@ Home Page Css
 /* Experience Section CSS */
 .experience-flex-container {
   min-height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   background-color: #fff;
   justify-content: center;
 }
@@ -175,11 +175,11 @@ Home Page Css
 .experience-flex-container .inner-content {
   display: flex;
   flex-wrap: wrap;
-  margin: -1rem;
+  /* margin: -1rem; */
 }
 
 .experience-flex-container .flex-item {
-  width: 100%;
+  /* width: 100%; */
   padding: 1rem 9rem 1rem 9rem;
 }
 
@@ -198,15 +198,27 @@ Home Page Css
 
 .experience-heading-flex {
   display: flex;
-  justify-content: space-around;
-  font-size: 16px;
+  margin-left: 20px;
+  justify-content: space-between;
 }
+.org-role h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.org-role .role {
+  opacity: 0.7;
+}
+.duration h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
 
 /* Projects CSS */
 
 .project-flex-container {
   min-height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   /* background-color: #5AFFA4; */
   justify-content: center;
 }

@@ -1,8 +1,25 @@
 /* For screens up to 768px */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
   .logoImg {
-    width: 4.5em !important;
-    margin: 13px 0px 0px 13px !important;
+    width: 3.5em !important;
+    margin: 20px 0px 0px 13px !important;
+  }
+
+  .mobile-menu {
+    display: block !important; 
+    
+  }
+  .ham-menu {
+    width: 78px;
+    cursor: pointer;
+    margin-right: 19px;
+  }
+  .nav-bar {
+    display: block;
+
+  }
+  .pHeader {
+    max-height: 4rem !important;
   }
   .myDescription {
     width: 100% !important;
@@ -44,6 +61,13 @@
     flex: 1 0 45% !important;
   }
 
+  .org-role h2 {
+    font-size: 14px !important;
+  }
+  
+  .duration h2 {
+    font-size: 14px !important;
+  }
   
   .experience-flex-container .flex-item {
     padding: 1rem !important;
@@ -60,21 +84,124 @@
   .project-flex-container .grid-container {
     width: 90% !important;
   }
-  .experience-heading-flex {
-    font-size: 10px !important;
-  }
+  
 
    .list-disc {
-    font-size: 12px;
+    font-size: 14px !important;
    }
 }
 
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .logoImg {
+    width: 3.5em !important;
+    margin: 20px 0px 0px 13px !important;
+  }
+
+  .mobile-menu {
+    display: block !important; 
+    
+  }
+  .ham-menu {
+    width: 78px;
+    cursor: pointer;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .pHeader {
+    max-height: 4rem !important;
+  }
+
+  .myDescription {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+
+  .home-flex-container .inner-content {
+    flex-direction: column;
+  }
+
+  .home-flex-container {
+    width: auto;
+  }
+
+  .heroText h1 {
+    font-size: 3.5rem !important;
+  }
+  .heroText h3 {
+    font-size: 1.1rem !important;
+  }
+  .heroImg img {
+    width: 19.6rem !important;
+  }
+  /* .home-skill {
+    font-size: 1.6rem !important;
+  } */
+  
+
+  .row {
+    width: 90% !important;
+    padding: 0rem 1rem 1rem 1rem !important;
+  }
+
+  .col {
+    width: 100% !important;
+  }
+
+  .grid-item {
+    flex: 1 0 45% !important;
+  }
+
+  .org-role h2 {
+    font-size: 16px !important;
+  }
+  
+  .duration h2 {
+    font-size: 16px !important;
+  }
+  
+  .experience-flex-container .flex-item {
+    padding: 1rem !important;
+  }
+
+  .experience-flex-container .inner-content {
+    margin: -1rem 1rem !important;
+  }
+
+  .experience-flex-container .inner-flex-item {
+    padding: 0.7rem !important;
+  }
+
+  .project-flex-container .grid-container {
+    width: 90% !important;
+  }
+  
+
+   .list-disc {
+    font-size: 10px !important;
+   }
+}
 /* For screens between 768px and 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
 
   .logoImg {
-    width: 4.5em;
-    margin: 13px 0px 0px 13px;
+    width: 3.5em !important;
+    margin: 20px 0px 0px 13px !important;
+  }
+
+  .mobile-menu {
+    display: block !important; 
+    
+  }
+  .ham-menu {
+    width: 78px;
+    cursor: pointer;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .pHeader {
+    max-height: 4rem !important;
   }
 
   .heroText h1 {
@@ -118,11 +245,17 @@
     flex: 1 0 30% !important;
   }
   
-
-  .experience-heading-flex {
-    font-size: 12px !important;
+  .org-role h2 {
+    font-size: 16px !important;
+  }
+  
+  .duration h2 {
+    font-size: 16px !important;
   }
 
+  .list-disc {
+    font-size: 14px;
+   }
   .experience-flex-container .flex-item {
     padding: 1rem 0rem !important;
   }

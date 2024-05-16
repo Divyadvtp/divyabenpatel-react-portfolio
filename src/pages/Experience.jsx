@@ -49,8 +49,8 @@ export default function Experience({ pageRefs }) {
     },
     {
       experience: {
-        companyName: "Junior Developer, Bangaluru, India",
-        jobTitle: "Map System",
+        companyName: "Map System, Bangaluru, India",
+        jobTitle: "Junior Developer",
         duration: "Jan 2017 - June 2017",
         responsibilities: {
           responsibility1:
@@ -89,9 +89,13 @@ export default function Experience({ pageRefs }) {
              return(
               <div className="inner-flex-item" key={index}>
               <div className="experience-heading-flex">
-                <h2>{work.experience.companyName}</h2>
-                <h2>{work.experience.jobTitle}</h2>
-                <h2>{work.experience.duration}</h2>
+                <div className="org-role">
+                  <h2 className="company-name">{work.experience.companyName}</h2>
+                  <h2 className="role">{work.experience.jobTitle}</h2>
+                </div>
+                <div className="duration">
+                  <h2>{work.experience.duration}</h2>
+                </div>
               </div>
               <ul className="list-disc">
                 {Object.keys(work.experience.responsibilities).map((key, index) => {

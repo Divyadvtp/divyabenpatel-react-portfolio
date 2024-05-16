@@ -3,6 +3,7 @@ import "./NavBar.css";
 import React, { useState } from 'react'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import HamburgerMenu from './HamburgerMenu';
 
 
 function NavBar({ pageRefs }) {
@@ -21,6 +22,11 @@ function NavBar({ pageRefs }) {
       setActiveNav(linkname);
   }
 
+  const handleHamMenuClickEvent = () => {
+      alert("clicked");
+
+  }
+
   return (
     <header id='site-header' className='pHeader'>
       <Navbar.Brand href="#Home">
@@ -36,6 +42,9 @@ function NavBar({ pageRefs }) {
               <button className='hireMeBtn'>Contact Me</button>
             </Nav.Link>
       </Navbar>
+      {/* <div className="mobile-menu">
+        <HamburgerMenu onClick={handleHamMenuClickEvent}/>
+      </div> */}
       
     </header>
   )

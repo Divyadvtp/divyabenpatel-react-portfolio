@@ -58,4 +58,7 @@ NavBar Css
     cursor: pointer;
   }
 
+  .mobile-menu {
+    display: none;
+  }
   
