@@ -1,18 +1,24 @@
 // import "../MediaQuery.css";
 import "./NavBar.css";
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import HamburgerMenu from './HamburgerMenu';
+// import HamburgerMenu from './HamburgerMenu';
 
 
 function NavBar({ pageRefs }) {
  
   const [activeNav, setActiveNav] = useState(null);
+  const [isNavBarVisible, setIsNavBarVisible] = useState(false);
+  const [menuIconToggle, setMenuIconToggle] = useState(true)
+  
+ 
 
   const handleNavClickEvent = (linkname) => {
     if (pageRefs.current && pageRefs.current[linkname]) {
       pageRefs.current[linkname].scrollIntoView({ behavior: "smooth", block: "start" });
+      setIsNavBarVisible(!isNavBarVisible);
+      setMenuIconToggle(!menuIconToggle);
       }
       else {
         console.error(`Ref for ${linkname} is not defined.`);
@@ -22,18 +28,23 @@ function NavBar({ pageRefs }) {
       setActiveNav(linkname);
   }
 
-  const handleHamMenuClickEvent = () => {
-      alert("clicked");
+  const handleToggleMobileMenu = () => {
+    
+    setIsNavBarVisible(!isNavBarVisible);
 
+  } 
+  const handleClickforMenuToggleIcon = () => {
+    setMenuIconToggle(!menuIconToggle);
   }
 
+  
   return (
-    <header id='site-header' className='pHeader'>
+    <header id='site-header' className='pHeader' >
       <Navbar.Brand href="#Home">
             <img className='logoImg' src="img/logo.png" alt="D logo" />
       </Navbar.Brand>
 
-      <Navbar className='nav-bar'>
+      <Navbar className={isNavBarVisible ? 'nav-bar mobile-visible' : 'nav-bar'}>
             <Nav.Link className='navItem' href="#Home" active={activeNav === "home"} onClick={() => handleNavClickEvent('home')}>Home</Nav.Link>
             <Nav.Link className='navItem' href="#Skills" active={activeNav === "skills"} onClick={() => handleNavClickEvent('skills')}>Skills</Nav.Link>
             <Nav.Link className='navItem' href="#Experience" active={activeNav === "experience"} onClick={() => handleNavClickEvent('experience')}>Experience</Nav.Link>
@@ -42,9 +53,12 @@ function NavBar({ pageRefs }) {
               <button className='hireMeBtn'>Contact Me</button>
             </Nav.Link>
       </Navbar>
-      {/* <div className="mobile-menu">
-        <HamburgerMenu onClick={handleHamMenuClickEvent}/>
-      </div> */}
+      <div id="mobileHamMenu" className="mobile-menu" onClick={handleToggleMobileMenu}>
+      <div>
+        {/* <img src="./img/ham_menu.png" alt="two lines hamburger menu" className='ham-menu'/> */}
+        <button type="button" className={menuIconToggle ? "menu-toggle" : "menu-toggle x"} onClick={handleClickforMenuToggleIcon}></button>
+    </div>
+      </div>
       
     </header>
   )

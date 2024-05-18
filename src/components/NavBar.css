@@ -9,7 +9,7 @@ NavBar Css
   .pHeader {
     width: 100%;
     display: flex;
-    z-index: 1000;
+    z-index: 995;
     max-height: 12rem;
     align-items: center;
     background: #ffffff85;

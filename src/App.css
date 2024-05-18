@@ -14,6 +14,7 @@ body {
   font-style: normal;
   /* width: 100%; */
   color: #000060;
+  user-select: none;
 }
 
 /* .container {
