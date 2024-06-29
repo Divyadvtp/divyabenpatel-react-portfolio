@@ -37,7 +37,6 @@ export default function Projects({ pageRefs }) {
           <div className="grid-item">4</div> */}
         </div>
       </div>
-      <h1 style={{textAlign: "center"}}>Still Under Construction, Stay Tuned!</h1>
     </section>
   );
 }

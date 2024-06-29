@@ -7,11 +7,10 @@ export default function Skills({ pageRefs }) {
     "React", "Redux", 
     "TypeScript", "Node.js", 
     "Express.js", "Vue.js", 
-    "MongoDB", "SQL",
+    "C#", "MongoDB", "SQL",
     "HTML", "CSS",
     "Material UI", "Tailwind", 
-    "Bootstrap", "Figma",
-    "Sketch", "Jest",
+    "Bootstrap", "Figma", "Jest",
     "React Testing Library", "Cypress",
     "Git", "Docker", "JIRA", "Agile Development"
 

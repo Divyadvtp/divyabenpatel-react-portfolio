@@ -2,14 +2,17 @@ import React from "react";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Education from "./Education";
+import Contact  from "./Contact";
 
 
 function Home({ pageRefs }) {
   
   
   return (
-    <main className="homeContainer container">
-      <section id="home-section" className="home-flex-container" ref={el => pageRefs.current = { ...pageRefs.current, home: el }} >
+    <main className="homeContainer container" ref={el => pageRefs.current = { ...pageRefs.current, home: el }}>
+      <section id="home-section" className="home-flex-container">
+      
         
         <div className="inner-content">
         <div className="heroText">
@@ -46,6 +49,8 @@ function Home({ pageRefs }) {
       <Skills pageRefs={pageRefs} />
       <Experience pageRefs={pageRefs} />
       <Projects pageRefs={pageRefs} />
+      <Education pageRefs={pageRefs} />
+      <Contact pageRefs={pageRefs} />
     </main>
   );
 }

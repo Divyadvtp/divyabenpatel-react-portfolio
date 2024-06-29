@@ -98,7 +98,7 @@
     user-select: none;
     box-sizing: border-box;
     overflow: hidden;
-    padding: 74px !important;
+    padding: 150px 200px 150px 74px !important;
 
   }
   
@@ -174,6 +174,24 @@
    .list-disc {
     font-size: 14px !important;
    }
+
+   .education-flex-container {
+    min-height: 100vh !important;
+    padding-bottom: 20px;
+   }
+   .map-address-card {
+    flex-wrap: wrap;
+    
+   }
+   .map-email {
+    margin-top: 1rem !important;
+   }
+   .contact-flex-container .flex-container {
+    flex-wrap: wrap;
+   }
+   .flex-child1, .flex-child2 {
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
@@ -275,7 +293,7 @@
     user-select: none;
     box-sizing: border-box;
     overflow: hidden;
-    padding: 74px !important;
+    padding: 150px 200px 150px 74px !important;
 
   }
   
@@ -308,7 +326,6 @@
   /* .home-skill {
     font-size: 1.6rem !important;
   } */
-  
 
   .row {
     width: 90% !important;
@@ -351,10 +368,26 @@
    .list-disc {
     font-size: 10px !important;
    }
+   .education-flex-container {
+    min-height: 100vh !important;
+    padding-bottom: 20px;
+   }
+   .map-address-card {
+    flex-wrap: wrap;
+    
+   }
+   .map-email {
+    margin-top: 1rem !important;
+   }
+   .contact-flex-container .flex-container {
+    flex-wrap: wrap;
+   }
+   .flex-child1, .flex-child2 {
+    width: 100% !important;
+  }
 }
 /* For screens between 768px and 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
-
   .logoImg {
     width: 3.5em !important;
     margin: 20px 0px 0px 13px !important;
@@ -529,6 +562,28 @@
   .project-flex-container .grid-container {
     width: 90% !important;
   }
+  .education-flex-container {
+    min-height: 100vh !important;
+    padding-bottom: 20px;
+   }
+  
+   .map-address-card {
+    flex-wrap: wrap;
+    
+   }
+   .map-email {
+    margin-top: 1rem !important;
+   }
+   .map-address-card {
+    flex-wrap: wrap;
+    
+   }
+   .map-email {
+    margin-top: 1rem !important;
+   }  
+   /* .contact-flex-container .flex-container {
+    flex-wrap: wrap;
+   } */
 }
 
 /* For screens larger than 1024px */

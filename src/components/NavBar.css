@@ -12,13 +12,10 @@ NavBar Css
     z-index: 995;
     max-height: 12rem;
     align-items: center;
-    background: #ffffff85;
+    /* background: #ffffff85; */
+    background-color: #e2dfdf;
     justify-content: space-between;
     font-size: 1rem;
-  }
-
-  .active {
-    font-weight: 600;
   }
   
   .logoImg {
@@ -43,9 +40,35 @@ NavBar Css
   }
   
   .navItem {
+
+    position: relative;
     padding: 15px;
     text-decoration: none;
-    color: #000060;   
+    text-transform: capitalize !important;
+    color: #000060;
+    font-weight: 600;   
+    letter-spacing: .1em;
+    font-size: .85rem;
+    transition: color 0.3s ease;
+    
+  }
+  .navItem:hover {
+    color: #0013db;
+  }
+
+  .navItem::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+    width: 0;
+    height: 2px;
+    background-color: #000060; 
+    transition: width 0.3s ease;
+  }
+
+  .active::after {
+    width: 87%;
   }
   
   .hireMeBtn {
@@ -54,10 +77,15 @@ NavBar Css
     border: 1px solid #65FF94;
     padding: 9px;
     border-radius: 6px;
+    font-size: .85rem;
+    font-weight: 500;
     box-shadow: 2px 2px 3px #0000001c;
     cursor: pointer;
   }
 
+  .hireMeBtn:hover {
+    color: #0013db;
+  }
   .mobile-menu {
     display: none;
   }
