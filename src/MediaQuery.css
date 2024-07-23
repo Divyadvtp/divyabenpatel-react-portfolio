@@ -169,8 +169,11 @@
   .project-flex-container .grid-container {
     width: 90% !important;
   }
+  .project-flex-container {
+    min-height: 55vh !important;
+  }
   
-
+  
    .list-disc {
     font-size: 14px !important;
    }
@@ -362,6 +365,9 @@
 
   .project-flex-container .grid-container {
     width: 90% !important;
+  }
+  .project-flex-container {
+    min-height: 55vh !important;
   }
   
 
@@ -561,6 +567,9 @@
 
   .project-flex-container .grid-container {
     width: 90% !important;
+  }
+  .project-flex-container {
+    min-height: 55vh !important;
   }
   .education-flex-container {
     min-height: 100vh !important;

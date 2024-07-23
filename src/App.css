@@ -28,6 +28,7 @@ body {
   padding: 20px;
   text-transform: uppercase;
 }
+
 /* section {
   padding-top: 5rem;
 } */
@@ -52,7 +53,8 @@ main {
   /* display: flex; */
   /* position: relative; */
   /* width: 100%; */
-  background-color: #e2dfdf;
+  /* background-color: #e2dfdf; */
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../public/img/bgDesign.svg);
   padding-top: 5rem;
 
 }
@@ -128,7 +130,8 @@ main {
   min-height: 70vh;
   /* width: 100%; */
   /* background-color: #5AFFA4; */
-  background-color: #e2dfdf;
+  /* background-color: #e2dfdf; */
+  background-color: #efefef;
   justify-content: center;
   padding-top: 5rem;
 
@@ -155,7 +158,8 @@ main {
   /* flex-direction: column; */
   /* flex-basis: 34%; */
   /* flex: 1 1; */
-  background-color: #eeede9;
+  /* background-color: #eeede9; */
+  background-color: #fafafa;
   width: 45.9%;
   min-height: 25px;
   margin: 0rem auto 0.9rem auto;
@@ -185,7 +189,8 @@ main {
   min-height: 100vh;
   /* width: 100%; */
   /* background-color: #fff; */
-  background-color: #e2dfdf;
+  /* background-color: #e2dfdf; */
+  background-color: #efefef;
   justify-content: center;
   padding-top: 5rem;
 }
@@ -202,18 +207,20 @@ main {
 }
 
 .experience-flex-container .inner-flex-item {
-  background-color: #eeede9;
+  /* background-color: #efefef; */
+  background-color: #fafafa;
   padding: 1rem;
   border-radius: 0.4rem;
   margin-bottom: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the div */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Shadow for the div */
   transition: box-shadow 0.3s ease;
 }
 
 .experience-flex-container .inner-flex-item:hover {
   cursor: pointer;
   background-color: #eeede9ab;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -243,6 +250,7 @@ main {
   min-height: 70vh;
   /* width: 100%; */
   /* background-color: #5AFFA4; */
+  background-color: #efefef;
   justify-content: center;
   padding-top: 5rem;
 }
@@ -304,7 +312,7 @@ main {
   min-height: 90vh;
   /* width: 100%; */
   /* background-color: #5AFFA4; */
-  background-color: #e2dfdf;
+  background-color: #efefef;
   justify-content: center;
   padding-top: 5rem;
 }
@@ -318,7 +326,8 @@ main {
 
 .education-flex-container .grid-item {
   flex: 1 0 0%;
-  background-color: #eeede9ab;
+  /* background-color: #eeede9ab; */
+  background-color: #fafafa;
   margin: 5px;
   text-align: center;
   padding: 20px;
@@ -331,7 +340,7 @@ main {
   min-height: 100vh;
   display: flex;
   padding: 20px;
-  background-color: #e2dfdf;
+  background-color: #efefef;
 }
 
 .contact-flex-container .flex-item {
@@ -339,7 +348,7 @@ main {
   padding-top: 5rem;
   /* flex-grow: 1; */
   /* border: 1px dashed blue; */
-  
+
 }
 
 .flex-child1 {
@@ -375,6 +384,7 @@ main {
   line-height: 1.625;
   margin-bottom: 1.25rem;
 }
+
 /* contact form css */
 .form-control {
   display: block;
@@ -403,6 +413,7 @@ main {
   outline: 0;
   box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
 }
+
 .form-label {
   font-size: .875rem;
 }
@@ -424,6 +435,7 @@ label {
   margin-top: 15px;
   cursor: pointer;
 }
+
 .ui.form .field {
   clear: both;
   margin: 0 0 1em;
@@ -445,13 +457,15 @@ label {
   font-weight: 700;
   text-transform: none;
 }
+
 .required.field>label:after {
   margin: -.2em 0 0 .2em;
-    content: '*';
-    color: #db2828;
-    display: inline-block;
-    vertical-align: top;
+  content: '*';
+  color: #db2828;
+  display: inline-block;
+  vertical-align: top;
 }
+
 .ui.form input[type=text] {
   /* display: block;
   width: 100%;
@@ -469,26 +483,27 @@ label {
   margin-bottom: .5rem; */
   display: block;
   width: 100%;
-    margin: 0;
-    outline: 0;
-    -webkit-appearance: none;
-    /* tap-highlight-color: rgba(255, 255, 255, 0); */
-    line-height: 1.21428571em;
-    padding: .67857143em 1em;
-    /* font-size: 1em; */
-    background: #fff;
-    border: 1px solid #22242626;
-    border-radius: .28571429rem;
-    box-shadow: 0 0 0 0 transparent inset;
-    transition: color .1s ease, border-color .1s ease;
+  margin: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  /* tap-highlight-color: rgba(255, 255, 255, 0); */
+  line-height: 1.21428571em;
+  padding: .67857143em 1em;
+  /* font-size: 1em; */
+  background: #fff;
+  border: 1px solid #22242626;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  transition: color .1s ease, border-color .1s ease;
 }
 
-.ui.form input[type=text]:focus, .ui.form textarea:focus {
+.ui.form input[type=text]:focus,
+.ui.form textarea:focus {
   color: #000000f2;
-    border-color: #85b7d9;
-    border-radius: .28571429rem;
-    background: #fff;
-    box-shadow: 0 0 0 0 #22242659 inset;
+  border-color: #85b7d9;
+  border-radius: .28571429rem;
+  background: #fff;
+  box-shadow: 0 0 0 0 #22242659 inset;
 }
 
 .ui.form textarea {
@@ -520,7 +535,7 @@ label {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   bottom: 43px;
-    left: 42px;
+  left: 42px;
   border-radius: .25rem;
 
 
