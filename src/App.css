@@ -13,7 +13,7 @@ body {
   font-weight: 400;
   font-style: normal;
   /* width: 100%; */
-  color: #000060;
+  color: #000060 !important;
   user-select: none;
 }
 
@@ -393,6 +393,9 @@ main {
   margin-bottom: .5rem;
 
 }
+
+
+
 .form-control:focus {
   color: #212529;
   background-color: #fff;
@@ -401,9 +404,9 @@ main {
   box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
 }
 .form-label {
-  /* margin-bottom: .5rem; */
   font-size: .875rem;
 }
+
 
 label {
   display: inline-block;
@@ -419,7 +422,96 @@ label {
   border: 1px solid #000060;
   color: white;
   margin-top: 15px;
+  cursor: pointer;
 }
+.ui.form .field {
+  clear: both;
+  margin: 0 0 1em;
+}
+
+.ui.input {
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  /* display: inline-flex; */
+  /* color: rgba(0, 0, 0, .87); */
+  font-size: 1em;
+}
+
+.field>label {
+  display: block;
+  margin: 0 0 .28571429rem 0;
+  font-size: .92857143em;
+  font-weight: 700;
+  text-transform: none;
+}
+.required.field>label:after {
+  margin: -.2em 0 0 .2em;
+    content: '*';
+    color: #db2828;
+    display: inline-block;
+    vertical-align: top;
+}
+.ui.form input[type=text] {
+  /* display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  appearance: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  margin-bottom: .5rem; */
+  display: block;
+  width: 100%;
+    margin: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    /* tap-highlight-color: rgba(255, 255, 255, 0); */
+    line-height: 1.21428571em;
+    padding: .67857143em 1em;
+    /* font-size: 1em; */
+    background: #fff;
+    border: 1px solid #22242626;
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 0 transparent inset;
+    transition: color .1s ease, border-color .1s ease;
+}
+
+.ui.form input[type=text]:focus, .ui.form textarea:focus {
+  color: #000000f2;
+    border-color: #85b7d9;
+    border-radius: .28571429rem;
+    background: #fff;
+    box-shadow: 0 0 0 0 #22242659 inset;
+}
+
+.ui.form textarea {
+  margin: 0;
+  width: 100%;
+  overflow: auto;
+  -webkit-appearance: none;
+  /* tap-highlight-color: rgba(255, 255, 255, 0); */
+  padding: .78571429em 1em;
+  background: #fff;
+  border: 1px solid rgba(34, 36, 38, .15);
+  outline: 0;
+  color: rgba(0, 0, 0, .87);
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  transition: color .1s ease, border-color .1s ease;
+  /* font-size: 1em; */
+  line-height: 1.2857;
+  resize: vertical;
+  vertical-align: top;
+}
+
+
 
 .map-address-card {
   position: absolute;
