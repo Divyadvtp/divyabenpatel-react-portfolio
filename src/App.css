@@ -240,7 +240,7 @@ main {
 
 /* Projects CSS */
 .project-flex-container {
-  min-height: 100vh;
+  min-height: 70vh;
   /* width: 100%; */
   /* background-color: #5AFFA4; */
   justify-content: center;
