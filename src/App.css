@@ -250,7 +250,8 @@ main {
   min-height: 70vh;
   /* width: 100%; */
   /* background-color: #5AFFA4; */
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../public/img/bgDesign.svg);
   justify-content: center;
   padding-top: 5rem;
 }
