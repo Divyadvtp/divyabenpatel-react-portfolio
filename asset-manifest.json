@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/divyabenpatel-react-portfolio/static/css/main.4b10d74c.css",
-    "main.js": "/divyabenpatel-react-portfolio/static/js/main.b4cac0ae.js",
+    "main.js": "/divyabenpatel-react-portfolio/static/js/main.4273c725.js",
     "static/media/bgDesign.svg": "/divyabenpatel-react-portfolio/static/media/bgDesign.9878fdbb0d963009b072.svg",
     "index.html": "/divyabenpatel-react-portfolio/index.html",
     "main.4b10d74c.css.map": "/divyabenpatel-react-portfolio/static/css/main.4b10d74c.css.map",
-    "main.b4cac0ae.js.map": "/divyabenpatel-react-portfolio/static/js/main.b4cac0ae.js.map"
+    "main.4273c725.js.map": "/divyabenpatel-react-portfolio/static/js/main.4273c725.js.map"
   },
   "entrypoints": [
     "static/css/main.4b10d74c.css",
-    "static/js/main.b4cac0ae.js"
+    "static/js/main.4273c725.js"
   ]
 }
