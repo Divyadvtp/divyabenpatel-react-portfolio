@@ -24,26 +24,22 @@ export default function Experience({ pageRefs }) {
       experience: {
         companyName: "Orail Services PVT. LTD., Surat, India",
         jobTitle: "Frontend Developer",
-        duration: "July 2017 - Dec 2020",
+        duration: "Jul 2017 - Dec 2020",
         responsibilities: {
           responsibility1:
-            "Improved user engagement for a Diamond & Jewelry Industry Cloud-based ERP by developing pixel-perfect UIs.",
+            "Improved user engagement for a Diamond & Jewelry Industry Cloud-based ERP by developing pixel-perfect User Interfaces.",
           responsibility2:
-            "Designed prototype and built responsive and user-friendly B2B and B2C Ecommerce websites, and mail templates, ensuring cross-browser compatibility and lowering bounce rates.",
+            "Their tech stack includes TypeScript with React for Ecommerce(B2B & B2C) websites and React Native for mobile and Node JS for the back end.",
           responsibility3:
-            "Conducted unit testing to validate functionality and enhance user experience.",
+            "Also used HTML5, JavaScript, jQuery for User Interface, and C# for backend to build, as well as deploy UI for OptigoApps CRM functionality.",
           responsibility4:
-            "Significantly Reduced load time and enhanced performance through lazy loading, code splitting, and catching strategies",
+            "My role included creating new features and making sure the existing features worked flawlessly by writing extensive test cases for them.",
           responsibility5:
-            "Improved website performance by implementing optimization techniques such as lazy loading and code splitting.",
+            "Employ cutting-edge techniques, including caching and deferred loading, to enhance application performance, resulting in fluidity and responsiveness.",
           responsibility6:
-            "Developed the UI/UX for Optigo App CRM, collaborating with QA to ensure high-quality front-end development.",
+            "Help create automated testing procedures and collaborate closely with our QA team to identify and fix issues quickly.",
           responsibility7:
-            "Managed projects individually as well as in collaboration using Agile/Scrum methodologies along with consulting client for requirement gathering.",
-          responsibility8:
             "Provided training and mentoring to two frontend developers, fostering an environment where continuous learning and improvement is encouraged.",
-          responsibility9:
-            "Technologies used: JavaScript, jQuery, React, C#, Material UI, Jest, version control (Git), Webpack.",
         },
       },
     },
@@ -51,7 +47,7 @@ export default function Experience({ pageRefs }) {
       experience: {
         companyName: "Map System, Bangaluru, India",
         jobTitle: "Junior Developer",
-        duration: "Jan 2017 - June 2017",
+        duration: "Jan 2017 - Jun 2017",
         responsibilities: {
           responsibility1:
             "A successful conversion of flash games to HTML5 improved accessibility and engagement for users.",

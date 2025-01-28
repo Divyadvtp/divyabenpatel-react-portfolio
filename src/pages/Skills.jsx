@@ -3,16 +3,16 @@ import CorrectIconSvg from "../components/CorrectIconSvg";
 
 export default function Skills({ pageRefs }) {
   const skills = [
+    "HTML", "CSS",
     "JavaScript", "jQuery", 
     "React", "Redux", 
-    "TypeScript", "Node.js", 
-    "Express.js", "Vue.js", 
+    "TypeScript", "Next.js",
+    "Node.js", "Express.js", 
     "C#", "MongoDB", "SQL",
-    "HTML", "CSS",
     "Material UI", "Tailwind", 
     "Bootstrap", "Figma", "Jest",
     "React Testing Library", "Cypress",
-    "Git", "Docker", "JIRA", "Agile Development"
+    "Git & GitHub", "CI/CD", "JIRA", "Agile Development"
 
   ]
   return (
